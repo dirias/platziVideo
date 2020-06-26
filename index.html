@@ -3,24 +3,228 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Platzi Fronted Developer</title>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    
 </head>
-<style>
-    p:nth-child(2n)
-    {
-        color: red;
-    }
-    p:nth-child(2n + 1)
-    {
-        color: green;
-    }
-</style>
 <body>
-    <!--Pseudo clases :, pseudoelementos ::-->
-    <p>🧛‍♂️ Vampire</p>
-    <p>😺 Cat</p>
-    <p>🕵 Detective</p>
-    <p>🧙‍♂️ Mage</p>
-    <p>👽 Alien</p>
+    <header class="header">
+        <img class="header__img" src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png" alt="Platzi Logo">
+        <div class="header__menu">
+            <div class="header__menu--profile">
+                <img src="./usuario.png" alt="User">
+                <p>Perfil</p>
+            </div>
+            <ul>
+                <li><a href="/">Cuenta</a></li>
+                <li><a href="/">Cerrar Sesión</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="main">
+        <h2 class="main__input">
+            Qué quieres ver hoy?
+        </h2>
+        <input class="input" type="text" placeholder="Buscar...">
+    </section>
+
+    <section class="background">
+        <h2 class="categories__title">Favoritos</h2>
+
+    <section class="carrousel">
+        <div class="carrousel__container">
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://mx.web.img2.acsta.net/c_216_288/pictures/19/11/25/03/23/0370630.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://vignette.wikia.nocookie.net/flash/images/2/29/The_Flash_season_2_poster_-_It%27s_Go_Time.png/revision/latest?cb=20150831220034&path-prefix=es" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://es.web.img2.acsta.net/pictures/20/04/01/09/21/3926409.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Stargirl</p>
+                    <p class="carrousel-item__details--subtitle">2020 TP 40m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://pics.filmaffinity.com/Big_Bang_Serie_de_TV-289210943-large.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://cinelipsis.files.wordpress.com/2016/05/3b31ae06a27cc58e_hush-poster-150dpi_v8-xxxlarge_2x.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://pulpfictioncine.com/download/multimedia.miniatura.96a4c5895c2d84a8.446967696d6f6e2d416476656e747572652d4c6173742d45766f6c7574696f6e5f6d696e6961747572612e6a7067.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://pulpfictioncine.com/download/multimedia.normal.baece62936d16ce0.706f6b656d6f6e2d323031392d37323378313032345f6e6f726d616c2e6a7067.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://pics.filmaffinity.com/The_Mandalorian_Serie_de_TV-526462730-large.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h2 class="categories__title">Terror</h2>
+
+    <section class="carrousel">
+        <div class="carrousel__container">
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://i.pinimg.com/originals/9a/3a/d9/9a3ad976b7f89df69e59550f8ca0053d.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Annabelle</p>
+                    <p class="carrousel-item__details--subtitle">2019 18+ 122m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://www.gbhbl.com/wp-content/uploads/2019/11/Wake-Up-Pic-4.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://i.pinimg.com/originals/a1/a9/8f/a1a98fc6f5b1a2087841e7680b6c1dff.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://www.sideshow.com/wp/wp-content/uploads/2019/10/sidey.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://pics.filmaffinity.com/It_Cap_tulo_2-844935737-large.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://i.pinimg.com/originals/1f/ea/62/1fea62ef8ce4a468633b2219f1db2be9.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://i.imgur.com/GGmfnSX.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+            <div class="carrousel-item">
+                <img class="carrousel-item__img" src="https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_UY1200_CR90,0,630,1200_AL_.jpg" alt="People">
+                <div class="carrousel-item__details">
+                    <div class="carrousel-item-imgContainer">
+                        <img src="https://img.icons8.com/nolan/64/play.png" alt="play"/>
+                        <img src="https://img.icons8.com/nolan/64/plus.png" alt="plus"/>
+                    </div>
+                    <p class="carrousel-item__details--title">Titulo descriptivo</p>
+                    <p class="carrousel-item__details--subtitle">2019 16+ 122m</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <footer class="footer">
+        <a href="/">Términos de uso</a>
+        <a href="/">Declaración de privacidad</a>
+        <a href="/">Centro de ayuda</a>
+    </footer>
 </body>
 </html>

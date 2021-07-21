@@ -103,7 +103,7 @@ body
 }
 .background
 {
-    background-image: url(./bg3.jpg);
+    background-image: url(./static/img/bg3.jpg);
     background-size: cover;
 }
 
@@ -230,7 +230,7 @@ body
     }
     .background
     {
-        background-image: url(./bg3Mobile.jpg);
+        background-image: url(./static/img/bg3Mobile.jpg);
         background-size: cover;
     }
 

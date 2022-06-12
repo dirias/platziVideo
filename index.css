@@ -116,8 +116,8 @@ body
 }
 .carrousel::-webkit-scrollbar
 {
-    background-color: rgb(107, 6, 6);
-    height: 15px;
+    background-color: #fff;
+    height: 10px;
 }
 
 
@@ -132,7 +132,7 @@ body
     width: 200px;
     height: 250px;
     border-radius: 20px;
-    background-color: blueviolet;
+    background-color: #5D1D99;
     overflow: hidden;
     margin-right: 10px;
     display: inline-block;
